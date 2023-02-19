@@ -1,0 +1,59 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  .bg-primary{
+  background-color: rgb(9, 51, 136);
+  }
+  .bg-gary{
+    background-color: rgb(193, 194, 194);
+  }
+
+  ul a{
+    font-size: 15px;
+    font-weight:300;
+    text-decoration: none;
+    font-style: none;
+    color: black;
+    
+  }
+  a:active{
+    color: blue;
+  }
+  a:hover{
+   font-size: 17px;
+   border-bottom: 0.5px solid;
+  }
+  a{
+    text-decoration: none;
+  }
+  img{
+    height: 40vw;
+    width: 40vw;
+  }
+  h1{
+    font-size: 60px;
+    font-weight: 10px;
+  }
+
+  footer img{
+    height:4vw;
+    width: 8vw;
+  }
+
+  footer a{
+    font-size: 15px;
+  }
+  .testo img{
+    height: 250px;
+    width: 250px;
+
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: lightgreen !important;
+}
